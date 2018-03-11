@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://52.14.88.50/Apk/hello.ipa</string>
+                    <string>https://raw.githubusercontent.com/goldyonwar/api/master/api/Movie/iostest/hello.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
