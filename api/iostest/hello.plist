@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.yourCompany.productName</string>
+				<string>com.gyw.YouMe</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Hello</string>
+				<string>YouMe</string>
 			</dict>
 		</dict>
 	</array>
