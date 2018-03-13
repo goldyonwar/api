@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		269285FB2057EF71000B713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269285FA2057EF71000B713E /* AppDelegate.swift */; };
+		269285FD2057EF71000B713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269285FC2057EF71000B713E /* ViewController.swift */; };
+		269286002057EF71000B713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269285FE2057EF71000B713E /* Main.storyboard */; };
+		269286022057EF71000B713E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269286012057EF71000B713E /* Assets.xcassets */; };
+		269286052057EF71000B713E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269286032057EF71000B713E /* LaunchScreen.storyboard */; };
+		269286102057EF71000B713E /* WirelessIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692860F2057EF71000B713E /* WirelessIosTests.swift */; };
+		2692861B2057EF71000B713E /* WirelessIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692861A2057EF71000B713E /* WirelessIosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2692860C2057EF71000B713E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269285EF2057EF71000B713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269285F62057EF71000B713E;
+			remoteInfo = WirelessIos;
+		};
+		269286172057EF71000B713E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269285EF2057EF71000B713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269285F62057EF71000B713E;
+			remoteInfo = WirelessIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		269285F72057EF71000B713E /* WirelessIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirelessIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269285FA2057EF71000B713E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269285FC2057EF71000B713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		269285FF2057EF71000B713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269286012057EF71000B713E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269286042057EF71000B713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269286062057EF71000B713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2692860B2057EF71000B713E /* WirelessIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2692860F2057EF71000B713E /* WirelessIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessIosTests.swift; sourceTree = "<group>"; };
+		269286112057EF71000B713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269286162057EF71000B713E /* WirelessIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2692861A2057EF71000B713E /* WirelessIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessIosUITests.swift; sourceTree = "<group>"; };
+		2692861C2057EF71000B713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269285F42057EF71000B713E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269286082057EF71000B713E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269286132057EF71000B713E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269285EE2057EF71000B713E = {
+			isa = PBXGroup;
+			children = (
+				269285F92057EF71000B713E /* WirelessIos */,
+				2692860E2057EF71000B713E /* WirelessIosTests */,
+				269286192057EF71000B713E /* WirelessIosUITests */,
+				269285F82057EF71000B713E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269285F82057EF71000B713E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269285F72057EF71000B713E /* WirelessIos.app */,
+				2692860B2057EF71000B713E /* WirelessIosTests.xctest */,
+				269286162057EF71000B713E /* WirelessIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269285F92057EF71000B713E /* WirelessIos */ = {
+			isa = PBXGroup;
+			children = (
+				269285FA2057EF71000B713E /* AppDelegate.swift */,
+				269285FC2057EF71000B713E /* ViewController.swift */,
+				269285FE2057EF71000B713E /* Main.storyboard */,
+				269286012057EF71000B713E /* Assets.xcassets */,
+				269286032057EF71000B713E /* LaunchScreen.storyboard */,
+				269286062057EF71000B713E /* Info.plist */,
+			);
+			path = WirelessIos;
+			sourceTree = "<group>";
+		};
+		2692860E2057EF71000B713E /* WirelessIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				2692860F2057EF71000B713E /* WirelessIosTests.swift */,
+				269286112057EF71000B713E /* Info.plist */,
+			);
+			path = WirelessIosTests;
+			sourceTree = "<group>";
+		};
+		269286192057EF71000B713E /* WirelessIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2692861A2057EF71000B713E /* WirelessIosUITests.swift */,
+				2692861C2057EF71000B713E /* Info.plist */,
+			);
+			path = WirelessIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269285F62057EF71000B713E /* WirelessIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2692861F2057EF71000B713E /* Build configuration list for PBXNativeTarget "WirelessIos" */;
+			buildPhases = (
+				269285F32057EF71000B713E /* Sources */,
+				269285F42057EF71000B713E /* Frameworks */,
+				269285F52057EF71000B713E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WirelessIos;
+			productName = WirelessIos;
+			productReference = 269285F72057EF71000B713E /* WirelessIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2692860A2057EF71000B713E /* WirelessIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269286222057EF71000B713E /* Build configuration list for PBXNativeTarget "WirelessIosTests" */;
+			buildPhases = (
+				269286072057EF71000B713E /* Sources */,
+				269286082057EF71000B713E /* Frameworks */,
+				269286092057EF71000B713E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2692860D2057EF71000B713E /* PBXTargetDependency */,
+			);
+			name = WirelessIosTests;
+			productName = WirelessIosTests;
+			productReference = 2692860B2057EF71000B713E /* WirelessIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		269286152057EF71000B713E /* WirelessIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269286252057EF71000B713E /* Build configuration list for PBXNativeTarget "WirelessIosUITests" */;
+			buildPhases = (
+				269286122057EF71000B713E /* Sources */,
+				269286132057EF71000B713E /* Frameworks */,
+				269286142057EF71000B713E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269286182057EF71000B713E /* PBXTargetDependency */,
+			);
+			name = WirelessIosUITests;
+			productName = WirelessIosUITests;
+			productReference = 269286162057EF71000B713E /* WirelessIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269285EF2057EF71000B713E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gold Yon  War";
+				TargetAttributes = {
+					269285F62057EF71000B713E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2692860A2057EF71000B713E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 269285F62057EF71000B713E;
+					};
+					269286152057EF71000B713E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 269285F62057EF71000B713E;
+					};
+				};
+			};
+			buildConfigurationList = 269285F22057EF71000B713E /* Build configuration list for PBXProject "WirelessIos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269285EE2057EF71000B713E;
+			productRefGroup = 269285F82057EF71000B713E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269285F62057EF71000B713E /* WirelessIos */,
+				2692860A2057EF71000B713E /* WirelessIosTests */,
+				269286152057EF71000B713E /* WirelessIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269285F52057EF71000B713E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269286052057EF71000B713E /* LaunchScreen.storyboard in Resources */,
+				269286022057EF71000B713E /* Assets.xcassets in Resources */,
+				269286002057EF71000B713E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269286092057EF71000B713E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269286142057EF71000B713E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269285F32057EF71000B713E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269285FD2057EF71000B713E /* ViewController.swift in Sources */,
+				269285FB2057EF71000B713E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269286072057EF71000B713E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269286102057EF71000B713E /* WirelessIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269286122057EF71000B713E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2692861B2057EF71000B713E /* WirelessIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2692860D2057EF71000B713E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269285F62057EF71000B713E /* WirelessIos */;
+			targetProxy = 2692860C2057EF71000B713E /* PBXContainerItemProxy */;
+		};
+		269286182057EF71000B713E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269285F62057EF71000B713E /* WirelessIos */;
+			targetProxy = 269286172057EF71000B713E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		269285FE2057EF71000B713E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269285FF2057EF71000B713E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269286032057EF71000B713E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269286042057EF71000B713E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2692861D2057EF71000B713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2692861E2057EF71000B713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269286202057EF71000B713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EVSM575K7;
+				INFOPLIST_FILE = WirelessIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyw.WirelessIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		269286212057EF71000B713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EVSM575K7;
+				INFOPLIST_FILE = WirelessIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyw.WirelessIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		269286232057EF71000B713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EVSM575K7;
+				INFOPLIST_FILE = WirelessIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyw.WirelessIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirelessIos.app/WirelessIos";
+			};
+			name = Debug;
+		};
+		269286242057EF71000B713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EVSM575K7;
+				INFOPLIST_FILE = WirelessIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyw.WirelessIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirelessIos.app/WirelessIos";
+			};
+			name = Release;
+		};
+		269286262057EF71000B713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EVSM575K7;
+				INFOPLIST_FILE = WirelessIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyw.WirelessIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirelessIos;
+			};
+			name = Debug;
+		};
+		269286272057EF71000B713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EVSM575K7;
+				INFOPLIST_FILE = WirelessIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyw.WirelessIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirelessIos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269285F22057EF71000B713E /* Build configuration list for PBXProject "WirelessIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2692861D2057EF71000B713E /* Debug */,
+				2692861E2057EF71000B713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2692861F2057EF71000B713E /* Build configuration list for PBXNativeTarget "WirelessIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269286202057EF71000B713E /* Debug */,
+				269286212057EF71000B713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269286222057EF71000B713E /* Build configuration list for PBXNativeTarget "WirelessIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269286232057EF71000B713E /* Debug */,
+				269286242057EF71000B713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269286252057EF71000B713E /* Build configuration list for PBXNativeTarget "WirelessIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269286262057EF71000B713E /* Debug */,
+				269286272057EF71000B713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269285EF2057EF71000B713E /* Project object */;
+}
