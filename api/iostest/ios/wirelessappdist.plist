@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>IDENTIFIER_GOES_HERE</string>
+				<string>com.gyw.WirelessIos</string>
 				<key>bundle-version</key>
-				<string>VERSION_GOES_HERE</string>
+				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>TITLE_GOES_HERE</string>
+				<string>WirelessIos</string>
 			</dict>
 		</dict>
 	</array>
